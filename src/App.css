@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+
+.app{
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+  color: #001639;
+  font-family: "Open Sans", sans-serif;
+}
+
+.h1{
+  text-transform: capitalize;
+  margin: 10px auto 12px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  line-height: 45px;
+  font-size: 48px;
+}
+
+.h2{
+  margin: 0;
+  text-transform: capitalize;
+  font-family: 'EB Garamond', serif;
+  line-height: 40px;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.h3{
+  margin: 0;
+  text-transform: capitalize;
+  font-family: 'EB Garamond', serif;
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.h4{
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.h6{
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #7d7d7d;
+}
+
+p{
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.no-ul{
+  list-style: none;
+  padding: 0;
+}
+
+.no-a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Home */
+  #intro{
+    background-position-x: 75%;
+  }
+
+  #jess-img, #counting-numbers {
+      box-shadow: none;
+  }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+  /* Navbar */
+  .navbar{
+    padding: 10px 0px;
+  }
+
+  .navbar-logo-link{
+    width: 25%;
+  }
+
+  /* Header Component */
+  .header-container {
+    background-position-y: bottom;
+    margin-top: 60px;
+}
+
+  .header {
+    padding: 125px 0;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+    letter-spacing: 1px;
+  }
+
+  /* Home Page*/
+  #intro{
+    background-position-y: 0;
+  }
+
+  .intro-background{
+    background: linear-gradient(90deg, rgba(0,22,57,100%) 15%, rgba(0,22,57, 40%) 78%);
+  }
+
+  .intro-title{
+    text-align: left;
+  }
+
+  #title{
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  #services-section {
+    margin-top: 50px;
+  }
+
+  .service-card{
+    margin-bottom: 0px;
+  }
+
+  .service-card span {
+    opacity: 0;
+  }
+
+  #services-info-section{
+    display: none;
+  }
+
+  #services-info-card{
+    display: flex;
+  }
+
+  #home #about-content {
+    padding-top: 60px;
+    margin-top: 45px;
+    padding-bottom: 0px;
+  }
+
+  #home #about-content .jess-image-div #title {
+    text-align: left;
+  }
+
+  /* About Page*/
+  #about #about-content{
+    background-color: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
+
+  #about-content .jess-image-div{
+    top: -25px;
+  }
+
+  #about-content .jess-image-div h1 {
+    font-weight: 400;
+  }
+
+  #about-content .jess-image-div #title{
+    margin-bottom: -20px;
+  }
+
+  #about-content .about-p-div{
+    margin-top: -0;
+  }
+
+  /* Services Page */
+  #service-section .title-div {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto 50px;
+  }
+
+  #service-section .title-div #title{
+    text-align: center;
+  }
+
+  #service-section .title-div .summary{
+    display: none;
+  }
+
+  #service-section .title-div .paragraph{
+    display: block;
+  }
+
+  .service-image-div {
+    height: 100%;
+    border-radius: 4px 0 0 4px;
+  }
+
+  #service-section .card-details {
+    padding: 30px 15px;
+  }
+
+  .card-details .service-card-list li {
+    letter-spacing: 0;
+  }
+
+  /* Contact */
+  #contactContent {
+    max-width: 60%;
+  }
+
+  .contact-submit-btn-div {
+    width: 50%;
+    margin: auto;
+}
+
+}
+

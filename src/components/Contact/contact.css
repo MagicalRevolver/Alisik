@@ -1,0 +1,24 @@
+#contactContent{
+    padding-bottom: 60px;
+    margin: 50px auto 0;
+}
+
+#contactContent .contact-greeting-div{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#contactContent .contact-greeting-div #title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#contactContent .contact-greeting-div h6{
+    margin-bottom: 10px;
+    text-transform: lowercase;
+}
+
+/* .contact-submit-btn-div{
+    width: 50%;
+    margin: auto;
+} */

@@ -1,0 +1,46 @@
+#about #about-content{
+    background-color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+#about-content .jess-image-div{
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+
+#about-content .jess-image-div #title{
+    margin-bottom: -10px;
+}
+
+
+#about-content .jess-image-div h1{
+    text-align: left;
+}
+
+#about-content .jess-image-div img{
+    width: 100%;
+    max-width: 350px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#about-content .jess-image-div h1{
+    width: fit-content;
+    border-bottom: #d8973c 3px solid;
+    padding-right: 10px;
+    margin: auto;
+    font-weight: 500;
+}
+
+#about-content .about-p-div{
+    margin-top: -10px;
+}
+
+#about-content .about-p-div p{
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #7d7d7d;
+    font-weight: 500;
+}
